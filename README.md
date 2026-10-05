@@ -6,7 +6,7 @@ This repository contains the website for **Two Rats Films**, a film production c
 
 The site is hosted on GitHub Pages at:
 
-**https://iamsumit.github.io/tworatsfilms/**
+**https://tworatsfilms.github.io**
 
 This is a temporary address. It will move to a custom domain once one is purchased.
 
