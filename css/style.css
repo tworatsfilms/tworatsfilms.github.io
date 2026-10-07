@@ -313,7 +313,7 @@ footer a svg { width: 16px; height: 16px; vertical-align: -3px; margin-right: 6p
   .hero { padding-top: 6vh; }
   h1 { font-size: 30vw; }
   header { min-height: 0; }
-  .hero { padding-bottom: 6vh; }
+  .hero { padding-bottom: 18vh; }
   section { padding: 85px 0; }
   .section-grid { grid-template-columns: 1fr; gap: 35px; }
   .funding .section-grid { padding: 85px 0; }
