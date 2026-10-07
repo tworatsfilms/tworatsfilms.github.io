@@ -170,8 +170,9 @@ h2 {
   line-height: 0;
 }
 .media-placeholder img { width: 100%; height: auto; }
+.media-placeholder + .media-placeholder { margin-top: 10px; }
 
-.shots { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 30px; }
+.shots { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px; }
 
 .shot {
   aspect-ratio: 16 / 10;
@@ -313,6 +314,7 @@ footer a svg { width: 16px; height: 16px; vertical-align: -3px; margin-right: 6p
   .section-grid { grid-template-columns: 1fr; gap: 35px; }
   .funding .section-grid { padding: 85px 0; }
   .shots { grid-template-columns: 1fr; }
+  nav .links { display: none; }
   .person { gap: 14px; padding: 32px 24px; }
   .social { top: 32px; right: 24px; }
 }
