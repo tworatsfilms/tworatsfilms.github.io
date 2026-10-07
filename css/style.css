@@ -87,7 +87,8 @@ nav {
 
 nav .links { display: flex; flex-wrap: wrap; gap: 24px; color: var(--muted); }
 
-.hero { padding: 12vh 0 8vh; }
+/* margin-bottom:auto pins the hero under the nav; spare height falls below it. */
+.hero { padding: 6vh 0 8vh; margin-bottom: auto; }
 
 .eyebrow {
   font-family: Arial, sans-serif;
@@ -309,7 +310,10 @@ footer a svg { width: 16px; height: 16px; vertical-align: -3px; margin-right: 6p
 
 @media (max-width: 760px) {
   :root { --gutter: 15px; }
-  .hero { padding-top: 14vh; }
+  .hero { padding-top: 6vh; }
+  h1 { font-size: 30vw; }
+  header { min-height: 0; }
+  .hero { padding-bottom: 6vh; }
   section { padding: 85px 0; }
   .section-grid { grid-template-columns: 1fr; gap: 35px; }
   .funding .section-grid { padding: 85px 0; }
